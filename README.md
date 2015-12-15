@@ -1,4 +1,4 @@
-Implementing a CNN for Text Classification in TensorFlow
+* Implementing a CNN for Text Classification in TensorFlow
 
 The full code is available on Github.
 
