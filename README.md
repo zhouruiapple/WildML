@@ -2,11 +2,11 @@
 
 <b>The full code is available on Github.</b>
 
-In this post we will implement a model similar to Kim Yoon’s Convolutional Neural Networks for Sentence Classification. The model presented in the paper achieves good classification performance across a range of text classification tasks (like Sentiment Analysis) and has since become a standard baseline for new text classification architectures.
+In this post we will implement a model similar to Kim Yoon’s <b>Convolutional Neural Networks for Sentence Classification</b>. The model presented in the paper achieves good classification performance across a range of text classification tasks (like Sentiment Analysis) and has since become a standard baseline for new text classification architectures.
 
-I’m assuming that you are already familiar with the basics of Convolutional Neural Networks applied to NLP. If not, I recommend to first read over Understanding Convolutional Neural Networks for NLP to get the necessary background.
+I’m assuming that you are already familiar with the basics of Convolutional Neural Networks applied to NLP. If not, I recommend to first read over <b>Understanding Convolutional Neural Networks for NLP</b> to get the necessary background.
 
-Data and Preprocessing
+## Data and Preprocessing
 
 The dataset we’ll use in this post is the Movie Review data from Rotten Tomatoes – one of the data sets also used in the original paper. The dataset contains 10,662 example review sentences, half positive and half negative. The dataset has a vocabulary of size around 20k. Note that since this data set is pretty small we’re likely to overfit with a powerful model. Also, the dataset doesn’t come with an official train/test split, so we simply use 10% of the data as a dev set. The original paper reported results for 10-fold cross-validation on the data.
 
